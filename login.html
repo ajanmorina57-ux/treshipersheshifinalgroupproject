@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in - The Trading Desk</title>
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="site-nav">
+            <a href="index.html" class="brand">
+                <span class="brand-icon">📈</span>
+                <span class="brand-name">The Trading Desk</span>
+            </a>
+            
+            <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primaryNav">
+                Menu
+            </button>
+            
+            <ul class="nav-links" id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="login.html" class="btn btn-ghost">Log in</a>
+                <a href="courses.html" class="btn btn-primary">Enroll</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="market-ticker" aria-label="Market snapshot">
+        <ul class="ticker-list">
+            <li class="ticker-item"><span class="ticker-symbol">SPX</span> <span class="ticker-change is-up">+0.42%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">NDX</span> <span class="ticker-change is-down">-0.18%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">DXY</span> <span class="ticker-change is-up">+0.06%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">WTI</span> <span class="ticker-change is-up">+1.12%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">10Y YIELD</span> <span class="ticker-change is-down">-0.03</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">BTC</span> <span class="ticker-change is-up">+2.87%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">VIX</span> <span class="ticker-change is-down">-1.40%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">EUR/USD</span> <span class="ticker-change is-up">+0.11%</span></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="auth">
+            <section class="auth-panel">
+                <h1>Log in</h1>
+                <form class="stacked-form" action="#" method="POST">
+                    <div class="field">
+                        <label for="siEmail">Email</label>
+                        <input type="email" id="siEmail" name="email" required>
+                    </div>
+                    
+                    <div class="field">
+                        <label for="siPassword">Password</label>
+                        <input type="password" id="siPassword" name="password" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Log in</button>
+                </form>
+            </section>
+
+            <section class="auth-panel">
+                <h2>Create account</h2>
+                <form class="stacked-form" action="#" method="POST">
+                    <div class="field">
+                        <label for="suName">Full name</label>
+                        <input type="text" id="suName" name="name" required>
+                    </div>
+                    
+                    <div class="field">
+                        <label for="suEmail">Email</label>
+                        <input type="email" id="suEmail" name="email" required>
+                    </div>
+                    
+                    <div class="field">
+                        <label for="suPassword">Password</label>
+                        <input type="password" id="suPassword" name="password" minlength="8" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Create account</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="copyright">&copy; 2026 The Trading Desk. For education only — not investment advice.</p>
+        <ul class="footer-links">
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>

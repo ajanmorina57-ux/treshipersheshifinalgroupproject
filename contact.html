@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - The Trading Desk</title>
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="site-nav">
+            <a href="index.html" class="brand">
+                <!-- Replaced the SVG with a simple text/icon placeholder -->
+                <span class="brand-icon">📈</span>
+                <span class="brand-name">The Trading Desk</span>
+            </a>
+            
+            <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primaryNav">
+                Menu
+            </button>
+            
+            <ul class="nav-links" id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="login.html" class="btn btn-ghost">Log in</a>
+                <a href="courses.html" class="btn btn-primary">Enroll</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Replaced the market ticker aside with a simpler div wrapper -->
+    <div class="market-ticker" aria-label="Market snapshot">
+        <ul class="ticker-list">
+            <li class="ticker-item"><span class="ticker-symbol">SPX</span> <span class="ticker-change is-up">+0.42%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">NDX</span> <span class="ticker-change is-down">-0.18%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">DXY</span> <span class="ticker-change is-up">+0.06%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">WTI</span> <span class="ticker-change is-up">+1.12%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">10Y YIELD</span> <span class="ticker-change is-down">-0.03</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">BTC</span> <span class="ticker-change is-up">+2.87%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">VIX</span> <span class="ticker-change is-down">-1.40%</span></li>
+            <li class="ticker-item"><span class="ticker-symbol">EUR/USD</span> <span class="ticker-change is-up">+0.11%</span></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="page-intro">
+            <p class="eyebrow">Contact</p>
+            <h1>Questions before you enroll?</h1>
+            <p class="lede">Send a message and an instructor — not a bot — will reply, usually within a day.</p>
+        </section>
+
+        <section class="contact-form-section">
+            <form class="stacked-form" action="#" method="POST">
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="field">
+                    <label for="topic">Which track are you asking about?</label>
+                    <select id="topic" name="topic">
+                        <option value="">General question</option>
+                        <option value="01">Track 01 — Market Foundations</option>
+                        <option value="02">Track 02 — Technical Analysis</option>
+                        <option value="03">Track 03 — Risk & Position Sizing</option>
+                        <option value="04">Track 04 — Options & Derivatives</option>
+                    </select>
+                </div>
+                
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="copyright">&copy; 2026 The Trading Desk. For education only — not investment advice.</p>
+        <ul class="footer-links">
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
