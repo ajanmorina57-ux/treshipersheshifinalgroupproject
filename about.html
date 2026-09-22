@@ -1,150 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html-root">
 
-<head>
+<head class="head-section">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - The Trading Desk</title>
+    <title class="page-title">Log in - The Trading Pro</title>
 </head>
 
-<body>
+<body class="page-body">
 
-    <header>
-        <h1>The Trading Desk</h1>
+    <header class="site-header">
+        <h1 class="site-title">The Trading Desk</h1>
 
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="courses.html">Courses</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
+        <nav class="site-nav">
+            <a href="index.html" class="nav-link">Home</a> |
+            <a href="courses.html" class="nav-link">Courses</a> |
+            <a href="about.html" class="nav-link">About</a> |
+            <a href="contact.html" class="nav-link">Contact</a> |
+            <a href="login.html" class="footer-link">Log in</a>
         </nav>
     </header>
 
-    <hr>
+    <hr class="section-divider">
 
-    <section>
-        <h2>Market Snapshot</h2>
+    <section class="market-snapshot-section">
+        <h2 class="section-heading">Market Snapshot</h2>
 
-        <ul>
-            <li>SPX: +0.42%</li>
-            <li>NDX: -0.18%</li>
-            <li>DXY: +0.06%</li>
-            <li>WTI: +1.12%</li>
-            <li>10Y Yield: -0.03</li>
-            <li>BTC: +2.87%</li>
-            <li>VIX: -1.40%</li>
-            <li>EUR/USD: +0.11%</li>
+        <ul class="market-list">
+            <li class="market-item">SPX: +0.42%</li>
+            <li class="market-item">NDX: -0.18%</li>
+            <li class="market-item">DXY: +0.06%</li>
+            <li class="market-item">WTI: +1.12%</li>
+            <li class="market-item">10Y Yield: -0.03</li>
+            <li class="market-item">BTC: +2.87%</li>
+            <li class="market-item">VIX: -1.40%</li>
+            <li class="market-item">EUR/USD: +0.11%</li>
         </ul>
     </section>
 
-    <hr>
+    <hr class="section-divider">
 
-    <main>
+    <main class="site-main">
 
-        <section>
-            <p><strong>About</strong></p>
+        <section class="login-section">
+            <h2 class="section-title">Log in</h2>
 
-            <h2>We teach the boring parts on purpose.</h2>
+            <form action="#" method="post" class="login-form">
 
-            <p>
-                Most trading content sells excitement. We teach
-                process, risk management, and the discipline needed
-                to follow a trading plan.
-            </p>
+                <p class="form-group">
+                    <label for="email" class="form-label">Email:</label><br class="form-break">
+                    <input type="email" id="email" name="email" required class="form-input">
+                </p>
+
+                <p class="form-group">
+                    <label for="password" class="form-label">Password:</label><br class="form-break">
+                    <input type="password" id="password" name="password" required class="form-input">
+                </p>
+
+                <p class="form-group form-submit-group">
+                    <input type="submit" value="Log in" class="form-submit">
+                </p>
+
+            </form>
         </section>
 
-        <hr>
+        <hr class="section-divider">
 
-        <section>
-            <h2>How the Academy Started</h2>
+        <section class="register-section">
+            <h2 class="section-title">Create Account</h2>
 
-            <ol>
+            <form action="#" method="post" class="register-form">
 
-                <li>
-                    <h3>2019 - A Trading Floor, Not a Classroom</h3>
+                <p class="form-group">
+                    <label for="name" class="form-label">Full Name:</label><br class="form-break">
+                    <input type="text" id="name" name="name" required class="form-input">
+                </p>
 
-                    <p>
-                        Founded by four former prop desk traders who
-                        kept getting asked the same beginner questions.
-                    </p>
-                </li>
+                <p class="form-group">
+                    <label for="newemail" class="form-label">Email:</label><br class="form-break">
+                    <input type="email" id="newemail" name="email" required class="form-input">
+                </p>
 
-                <li>
-                    <h3>2021 - The Four-Track Structure</h3>
+                <p class="form-group">
+                    <label for="newpassword" class="form-label">Password:</label><br class="form-break">
+                    <input type="password" id="newpassword" name="password" required class="form-input">
+                </p>
 
-                    <p>
-                        The curriculum was rebuilt around one idea:
-                        risk management should come before strategy.
-                    </p>
-                </li>
+                <p class="form-group form-submit-group">
+                    <input type="submit" value="Create Account" class="form-submit">
+                </p>
 
-                <li>
-                    <h3>2026 - 3,000+ Graduates</h3>
-
-                    <p>
-                        The courses are still taught by practitioners
-                        who trade their own accounts.
-                    </p>
-                </li>
-
-            </ol>
-        </section>
-
-        <hr>
-
-        <section>
-            <h2>Instructors</h2>
-
-            <ul>
-
-                <li>
-                    <h3>Dana Ruiz</h3>
-
-                    <p>
-                        12 years on a macro desk.
-                        Teaches Track 01 and Track 03.
-                    </p>
-                </li>
-
-                <li>
-                    <h3>Kwame Osei</h3>
-
-                    <p>
-                        Independent swing trader since 2015.
-                        Teaches Track 02.
-                    </p>
-                </li>
-
-                <li>
-                    <h3>Lena Vogt</h3>
-
-                    <p>
-                        Former options market maker.
-                        Teaches Track 04.
-                    </p>
-                </li>
-
-            </ul>
+            </form>
         </section>
 
     </main>
 
-    <hr>
+    <hr class="section-divider">
 
-    <footer>
+    <footer class="site-footer">
 
-        <p>
-            &copy; 2026 The Trading Desk.
+        <p class="footer-text copyright-text">
+            &copy; 2026 The Trading Pro.
         </p>
 
-        <p>
+        <p class="footer-text disclaimer-text">
             For education only - not investment advice.
         </p>
 
-        <p>
-            <a href="courses.html">Courses</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
+        <p class="footer-text footer-nav-p">
+            <a href="courses.html" class="footer-link">Courses</a> |
+            <a href="about.html" class="footer-link">About</a> |
+            <a href="contact.html" class="footer-link">Contact</a> |
+            <a href="login.html" class="footer-link">Log in</a>
         </p>
 
     </footer>

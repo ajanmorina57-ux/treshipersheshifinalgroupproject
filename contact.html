@@ -1,111 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html-root">
 
-<head>
+<head class="head-section">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - The Trading Desk</title>
+    <title class="page-title">Contact - The Trading Pro</title>
 </head>
 
-<body>
+<body class="page-body">
 
-    <header>
-        <h1>The Trading Desk</h1>
+    <header class="site-header">
+        <h1 class="site-title">The Trading Pro</h1>
 
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="courses.html">Courses</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
+        <nav class="site-nav">
+            <a href="index.html" class="nav-link">Home</a> |
+            <a href="courses.html" class="nav-link">Courses</a> |
+            <a href="about.html" class="nav-link">About</a> |
+            <a href="contact.html" class="nav-link">Contact</a> |
+            <a href="login.html" class="nav-link">Log in</a>
         </nav>
     </header>
 
-    <hr>
 
-    <section>
-        <h2>Market Snapshot</h2>
+    <hr class="section-divider">
 
-        <ul>
-            <li>SPX: +0.42%</li>
-            <li>NDX: -0.18%</li>
-            <li>DXY: +0.06%</li>
-            <li>WTI: +1.12%</li>
-            <li>10Y Yield: -0.03</li>
-            <li>BTC: +2.87%</li>
-            <li>VIX: -1.40%</li>
-            <li>EUR/USD: +0.11%</li>
-        </ul>
-    </section>
+    <main class="site-main">
 
-    <hr>
+        <section class="intro-section">
+            <p class="intro-subtitle"><strong class="subtitle-bold">Contact</strong></p>
 
-    <main>
+            <h2 class="section-title">Questions before you enroll?</h2>
 
-        <section>
-            <p><strong>Contact</strong></p>
-
-            <h2>Questions before you enroll?</h2>
-
-            <p>
+            <p class="intro-description">
                 Send us a message and an instructor will reply,
                 usually within a day.
             </p>
         </section>
 
-        <section>
-            <h2>Contact Us</h2>
+        <section class="form-section">
+            <h2 class="section-title">Contact Us</h2>
 
-            <form action="#" method="post">
+            <form action="#" method="post" class="contact-form">
 
-                <p>
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" required>
+                <p class="form-group">
+                    <label for="name" class="form-label">Name:</label><br class="form-break">
+                    <input type="text" id="name" name="name" required class="form-input">
                 </p>
 
-                <p>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required>
+                <p class="form-group">
+                    <label for="email" class="form-label">Email:</label><br class="form-break">
+                    <input type="email" id="email" name="email" required class="form-input">
                 </p>
 
-                <p>
-                    <label for="topic">Which track are you asking about?</label><br>
+                <p class="form-group">
+                    <label for="topic" class="form-label">Which track are you asking about?</label><br class="form-break">
 
-                    <select id="topic" name="topic">
-                        <option value="general">General question</option>
-                        <option value="01">Track 01 - Market Foundations</option>
-                        <option value="02">Track 02 - Technical Analysis</option>
-                        <option value="03">Track 03 - Risk & Position Sizing</option>
-                        <option value="04">Track 04 - Options & Derivatives</option>
+                    <select id="topic" name="topic" class="form-select">
+                        <option value="general" class="form-option">General question</option>
+                        <option value="01" class="form-option">Track 01 - Market Foundations</option>
+                        <option value="02" class="form-option">Track 02 - Technical Analysis</option>
+                        <option value="03" class="form-option">Track 03 - Risk & Position Sizing</option>
+                        <option value="04" class="form-option">Track 04 - Options & Derivatives</option>
                     </select>
                 </p>
 
-                <p>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                <p class="form-group">
+                    <label for="message" class="form-label">Message:</label><br class="form-break">
+                    <textarea id="message" name="message" rows="5" cols="40" class="form-textarea"></textarea>
                 </p>
 
-                <p>
-                    <input type="submit" value="Send Message">
+                <p class="form-group form-submit-group">
+                    <input type="submit" value="Send Message" class="form-submit">
                 </p>
 
             </form>
         </section>
 
-        <hr>
+        <hr class="section-divider">
 
-        <section>
-            <h2>Other Ways to Contact Us</h2>
+        <section class="alternative-contact-section">
+            <h2 class="section-title">Other Ways to Contact Us</h2>
 
-            <p>
+            <p class="contact-detail-p">
                 Email:
-                <a href="mailto:info@thetradingdesk.com">
-                    info@thetradingdesk.com
+                <a href="mailto:info@thetradingpro.com" class="contact-link">
+                    info@thetradingpro.com
                 </a>
             </p>
 
-            <p>
+            <p class="contact-detail-p">
                 Phone:
-                <a href="tel:+123456789">
+                <a href="tel:+123456789" class="contact-link">
                     +1 234 567 89
                 </a>
             </p>
@@ -113,21 +98,22 @@
 
     </main>
 
-    <hr>
+    <hr class="section-divider">
 
-    <footer>
-        <p>
-            &copy; 2026 The Trading Desk.
+    <footer class="site-footer">
+        <p class="footer-text copyright-text">
+            &copy; 2026 The Trading Pro.
         </p>
 
-        <p>
+        <p class="footer-text disclaimer-text">
             For education only - not investment advice.
         </p>
 
-        <p>
-            <a href="courses.html">Courses</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
+        <p class="footer-text footer-nav-p">
+            <a href="courses.html" class="footer-link">Courses</a> |
+            <a href="about.html" class="footer-link">About</a> |
+            <a href="contact.html" class="footer-link">Contact</a> |
+            <a href="login.html" class="footer-link">Log in</a>
         </p>
     </footer>
 

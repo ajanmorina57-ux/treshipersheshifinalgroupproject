@@ -1,92 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html-root">
 
-<head>
+<head class="head-section">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in - The Trading Desk</title>
+    <title class="page-title">Log in - The Trading Pro</title>
 </head>
 
-<body>
+<body class="page-body">
 
-    <header>
-        <h1>The Trading Desk</h1>
+    <header class="site-header">
+        <h1 class="site-title">The Trading Pro</h1>
 
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="courses.html">Courses</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
+        <nav class="site-nav">
+            <a href="index.html" class="nav-link">Home</a> |
+            <a href="courses.html" class="nav-link">Courses</a> |
+            <a href="about.html" class="nav-link">About</a> |
+            <a href="contact.html" class="nav-link">Contact</a> |
         </nav>
     </header>
 
-    <hr>
 
-    <section>
-        <h2>Market Snapshot</h2>
+    <hr class="section-divider">
 
-        <ul>
-            <li>SPX: +0.42%</li>
-            <li>NDX: -0.18%</li>
-            <li>DXY: +0.06%</li>
-            <li>WTI: +1.12%</li>
-            <li>10Y Yield: -0.03</li>
-            <li>BTC: +2.87%</li>
-            <li>VIX: -1.40%</li>
-            <li>EUR/USD: +0.11%</li>
-        </ul>
-    </section>
+    <main class="site-main">
 
-    <hr>
+        <section class="login-section">
+            <h2 class="section-title">Log in</h2>
 
-    <main>
+            <form action="#" method="post" class="login-form">
 
-        <section>
-            <h2>Log in</h2>
-
-            <form action="#" method="post">
-
-                <p>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required>
+                <p class="form-group">
+                    <label for="email" class="form-label">Email:</label><br class="form-break">
+                    <input type="email" id="email" name="email" required class="form-input">
                 </p>
 
-                <p>
-                    <label for="password">Password:</label><br>
-                    <input type="password" id="password" name="password" required>
+                <p class="form-group">
+                    <label for="password" class="form-label">Password:</label><br class="form-break">
+                    <input type="password" id="password" name="password" required class="form-input">
                 </p>
 
-                <p>
-                    <input type="submit" value="Log in">
+                <p class="form-group form-submit-group">
+                    <input type="submit" value="Log in" class="form-submit">
                 </p>
 
             </form>
         </section>
 
-        <hr>
+        <hr class="section-divider">
 
-        <section>
-            <h2>Create Account</h2>
+        <section class="register-section">
+            <h2 class="section-title">Create Account</h2>
 
-            <form action="#" method="post">
+            <form action="#" method="post" class="register-form">
 
-                <p>
-                    <label for="name">Full Name:</label><br>
-                    <input type="text" id="name" name="name" required>
+                <p class="form-group">
+                    <label for="name" class="form-label">Full Name:</label><br class="form-break">
+                    <input type="text" id="name" name="name" required class="form-input">
                 </p>
 
-                <p>
-                    <label for="newemail">Email:</label><br>
-                    <input type="email" id="newemail" name="email" required>
+                <p class="form-group">
+                    <label for="newemail" class="form-label">Email:</label><br class="form-break">
+                    <input type="email" id="newemail" name="email" required class="form-input">
                 </p>
 
-                <p>
-                    <label for="newpassword">Password:</label><br>
-                    <input type="password" id="newpassword" name="password" required>
+                <p class="form-group">
+                    <label for="newpassword" class="form-label">Password:</label><br class="form-break">
+                    <input type="password" id="newpassword" name="password" required class="form-input">
                 </p>
 
-                <p>
-                    <input type="submit" value="Create Account">
+                <p class="form-group form-submit-group">
+                    <input type="submit" value="Create Account" class="form-submit">
                 </p>
 
             </form>
@@ -94,22 +78,22 @@
 
     </main>
 
-    <hr>
+    <hr class="section-divider">
 
-    <footer>
+    <footer class="site-footer">
 
-        <p>
-            &copy; 2026 The Trading Desk.
+        <p class="footer-text copyright-text">
+            &copy; 2026 The Trading Pro.
         </p>
 
-        <p>
+        <p class="footer-text disclaimer-text">
             For education only - not investment advice.
         </p>
 
-        <p>
-            <a href="courses.html">Courses</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
+        <p class="footer-text footer-nav-p">
+            <a href="courses.html" class="footer-link">Courses</a> |
+            <a href="about.html" class="footer-link">About</a> |
+            <a href="contact.html" class="footer-link">Contact</a>
         </p>
 
     </footer>
