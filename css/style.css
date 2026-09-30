@@ -251,6 +251,22 @@ cite {
 .footer p:last-child {
     color: #657487;
     font-size: 13px;
+
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 6px;
+    border: 1px solid #26364A;
+}
+
+.box img{
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
 }
 
 @media (max-width: 768px){
