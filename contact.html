@@ -1,124 +1,132 @@
 <!DOCTYPE html>
-<html lang="en" class="html-root">
-
-<head class="head-section">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="page-title">Contact - The Trading Pro</title>
+    <title>Contact - The Trading Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
+<body>
 
-<body class="page-body">
+    <header class="header">
 
-    <header class="site-header">
-        <h1 class="site-title">The Trading Pro</h1>
+        <h1 class="title">The Trading Pro</h1>
 
-        <nav class="site-nav">
-            <a href="index.html" class="nav-link">Home</a> |
-            <a href="courses.html" class="nav-link">Courses</a> |
-            <a href="about.html" class="nav-link">About</a> |
-            <a href="contact.html" class="nav-link">Contact</a> |
-            <a href="login.html" class="nav-link">Log in</a>
+        <nav class="nav">
+            <a href="index.html" class="link">Home</a> |
+            <a href="courses.html" class="link">Courses</a> |
+            <a href="about.html" class="link">About</a> |
+            <a href="contact.html" class="link">Contact</a> |
+            <a href="login.html" class="link">Log in</a>
         </nav>
+
     </header>
 
+    <hr>
 
-    <hr class="section-divider">
+    <main class="main">
 
-    <main class="site-main">
+        <div class="box">
 
-        <section class="intro-section">
-            <p class="intro-subtitle"><strong class="subtitle-bold">Contact</strong></p>
+            <p><strong>Contact</strong></p>
 
-            <h2 class="section-title">Questions before you enroll?</h2>
+            <h2>Questions before you enroll?</h2>
 
-            <p class="intro-description">
+            <p>
                 Send us a message and an instructor will reply,
                 usually within a day.
             </p>
-        </section>
 
-        <section class="form-section">
-            <h2 class="section-title">Contact Us</h2>
+        </div>
 
-            <form action="#" method="post" class="contact-form">
+        <div class="box">
 
-                <p class="form-group">
-                    <label for="name" class="form-label">Name:</label><br class="form-break">
-                    <input type="text" id="name" name="name" required class="form-input">
-                </p>
+            <h2>Contact Us</h2>
 
-                <p class="form-group">
-                    <label for="email" class="form-label">Email:</label><br class="form-break">
-                    <input type="email" id="email" name="email" required class="form-input">
-                </p>
+            <form action="#" method="post" class="form">
 
-                <p class="form-group">
-                    <label for="topic" class="form-label">Which track are you asking about?</label><br class="form-break">
+                <div class="group">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required class="input">
+                </div>
 
-                    <select id="topic" name="topic" class="form-select">
-                        <option value="general" class="form-option">General question</option>
-                        <option value="01" class="form-option">Track 01 - Market Foundations</option>
-                        <option value="02" class="form-option">Track 02 - Technical Analysis</option>
-                        <option value="03" class="form-option">Track 03 - Risk & Position Sizing</option>
-                        <option value="04" class="form-option">Track 04 - Options & Derivatives</option>
+                <div class="group">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required class="input">
+                </div>
+
+                <div class="group">
+                    <label for="topic">Which track are you asking about?</label><br>
+
+                    <select id="topic" name="topic" class="input">
+                        <option value="general">General question</option>
+                        <option value="01">Track 01 - Market Foundations</option>
+                        <option value="02">Track 02 - Technical Analysis</option>
+                        <option value="03">Track 03 - Risk &amp; Position Sizing</option>
+                        <option value="04">Track 04 - Options &amp; Derivatives</option>
                     </select>
-                </p>
 
-                <p class="form-group">
-                    <label for="message" class="form-label">Message:</label><br class="form-break">
-                    <textarea id="message" name="message" rows="5" cols="40" class="form-textarea"></textarea>
-                </p>
+                </div>
 
-                <p class="form-group form-submit-group">
-                    <input type="submit" value="Send Message" class="form-submit">
-                </p>
+                <div class="group">
+
+                    <label for="message">Message:</label><br>
+
+                    <textarea id="message" name="message" rows="5" class="input"></textarea>
+
+                </div>
+
+                <div class="group">
+
+                    <input type="submit" value="Send Message" class="button">
+
+                </div>
 
             </form>
-        </section>
 
-        <hr class="section-divider">
+        </div>
 
-        <section class="alternative-contact-section">
-            <h2 class="section-title">Other Ways to Contact Us</h2>
+        <hr>
 
-            <p class="contact-detail-p">
+        <div class="box">
+
+            <h2>Other Ways to Contact Us</h2>
+
+            <p>
                 Email:
-                <a href="mailto:info@thetradingpro.com" class="contact-link">
+                <a href="mailto:info@thetradingpro.com" class="link">
                     info@thetradingpro.com
                 </a>
             </p>
 
-            <p class="contact-detail-p">
+            <p>
                 Phone:
-                <a href="tel:+123456789" class="contact-link">
+                <a href="tel:+123456789" class="link">
                     +1 234 567 89
                 </a>
             </p>
-        </section>
+
+        </div>
 
     </main>
 
-    <hr class="section-divider">
+    <hr>
 
-    <footer class="site-footer">
-        <p class="footer-text copyright-text">
+    <footer class="footer">
+
+        <p>
             &copy; 2026 The Trading Pro.
         </p>
 
-        <p class="footer-text disclaimer-text">
+        <p>
             For education only - not investment advice.
         </p>
 
-        <p class="footer-text footer-nav-p">
-            <a href="courses.html" class="footer-link">Courses</a> |
-            <a href="about.html" class="footer-link">About</a> |
-            <a href="contact.html" class="footer-link">Contact</a> |
-            <a href="login.html" class="footer-link">Log in</a>
-        </p>
     </footer>
 
-    <script src="script.js" class="script-section"></script>
     <script src="jquery-4.0.0.min.js"></script>
-
+    <script src="js/jquery-script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

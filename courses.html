@@ -1,178 +1,204 @@
 <!DOCTYPE html>
-<html lang="en" class="html-root">
-
-<head class="head-section">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="page-title">Courses - The Trading Pro</title>
+    <title>Courses - The Trading Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
+<body>
 
-<body class="page-body">
+    <header class="header">
 
-    <header class="site-header">
-        <h1 class="site-title">The Trading Pro</h1>
+        <h1 class="title">The Trading Pro</h1>
 
-        <nav class="site-nav">
-            <a href="index.html" class="nav-link">Home</a> |
-            <a href="courses.html" class="nav-link">Courses</a> |
-            <a href="about.html" class="nav-link">About</a> |
-            <a href="contact.html" class="nav-link">Contact</a> |
-            <a href="login.html" class="nav-link">Log in</a> |
-
+        <nav class="nav">
+            <a href="index.html" class="link">Home</a> |
+            <a href="courses.html" class="link">Courses</a> |
+            <a href="about.html" class="link">About</a> |
+            <a href="contact.html" class="link">Contact</a> |
+            <a href="login.html" class="link">Log in</a>
         </nav>
+
     </header>
 
-    <hr class="section-divider">
+    <hr>
 
-    <section class="market-snapshot-section">
-        <h2 class="section-heading">Market Snapshot</h2>
+    <div class="box">
 
-        <ul class="market-list">
-            <li class="market-item">SPX: +0.42%</li>
-            <li class="market-item">NDX: -0.18%</li>
-            <li class="market-item">DXY: +0.06%</li>
-            <li class="market-item">WTI: +1.12%</li>
-            <li class="market-item">10Y Yield: -0.03</li>
-            <li class="market-item">BTC: +2.87%</li>
-            <li class="market-item">VIX: -1.40%</li>
-            <li class="market-item">EUR/USD: +0.11%</li>
+        <h2>Market Snapshot</h2>
+
+        <ul class="list">
+            <li>SPX: +0.42%</li>
+            <li>NDX: -0.18%</li>
+            <li>DXY: +0.06%</li>
+            <li>WTI: +1.12%</li>
+            <li>10Y Yield: -0.03</li>
+            <li>BTC: +2.87%</li>
+            <li>VIX: -1.40%</li>
+            <li>EUR/USD: +0.11%</li>
         </ul>
-    </section>
 
-    <hr class="section-divider">
+    </div>
 
-    <main class="site-main">
+    <hr>
 
-        <section class="intro-section">
-            <p class="intro-subtitle"><strong class="subtitle-bold">Full Curriculum</strong></p>
+    <main class="main">
 
-            <h2 class="section-title">Thirty lessons, four tracks, one order.</h2>
+        <div class="box">
 
-            <p class="intro-description">
+            <p>
+                <strong>Full Curriculum</strong>
+            </p>
+
+            <h2>Thirty lessons, four tracks, one order.</h2>
+
+            <p>
                 Each track builds on the last.
                 Start at 01 unless you can already read a chart without help.
             </p>
-        </section>
 
-        <section class="search-section">
-            <h2 class="section-title">Search Courses</h2>
+        </div>
 
-            <form action="#" method="get" class="search-form">
-                <label for="course" class="form-label">Search by topic:</label>
-                <input type="text" id="course" name="course" class="form-input">
-                <input type="submit" value="Search" class="form-submit">
+        <div class="box">
+
+            <h2>Search Courses</h2>
+
+            <form action="#" method="get" class="form">
+
+                <label for="course">Search by topic:</label>
+
+                <input type="text" id="course" name="course" class="input">
+
+                
+
             </form>
-        </section>
 
-        <hr class="section-divider">
+        </div>
 
-        <section class="courses-list-section">
-            <h2 class="section-title">Courses</h2>
+        <hr>
 
-            <ol class="courses-ol">
+        <div class="box">
 
-                <li class="course-item">
-                    <h3 class="course-heading">
-                        <a href="course-detail.html" class="course-link">
+            <h2>Courses</h2>
+
+            <ol class="courses">
+
+                <li class="course">
+
+                    <img class="course-image" src="img/market_foundation.webp" alt="Market foundations course">
+
+                    <h3>
+                        <a href="course-detail.html" class="link">
                             Market Foundations
                         </a>
-                        <button class="payment-button">
-                            <a href="payment.html" class="payment-link">Payment</a>
-                        </button>
+
+                        <a href="payment.html" class="button">
+                            Payment
+                        </a>
                     </h3>
 
-                    <p class="course-description">
+                    <p>
                         Order types, market structure, and how price
                         moves through an order book.
                     </p>
 
-                    <p class="course-meta">6 Lessons - 4 Hours</p>
+                    <p>6 Lessons - 4 Hours</p>
+
                 </li>
 
-                <li class="course-item">
-                    <h3 class="course-heading">
-                        <a href="course-detail.html" class="course-link">
+                <li class="course">
+
+                    <img class="course-image" src="img/chart_reading.webp" alt="Technical analysis and chart reading course">
+
+                    <h3>
+                        <a href="course-detail.html" class="link">
                             Technical Analysis &amp; Chart Reading
                         </a>
-                        <button class="payment-button">
-                            <a href="payment.html" class="payment-link">Payment</a>
-                        </button>
+
+                        <a href="payment.html" class="button">
+                            Payment
+                        </a>
                     </h3>
 
-                    <p class="course-description">
+                    <p>
                         Support, resistance, volume, and useful
                         chart patterns.
                     </p>
 
-                    <p class="course-meta">9 Lessons - 7 Hours</p>
+                    <p>9 Lessons - 7 Hours</p>
+
                 </li>
 
-                <li class="course-item">
-                    <h3 class="course-heading">
-                        <a href="course-detail.html" class="course-link">
+                <li class="course">
+
+                    <img class="course-image" src="img/risk.webp" alt="Risk and position sizing course">
+
+                    <h3>
+                        <a href="course-detail.html" class="link">
                             Risk &amp; Position Sizing
                         </a>
-                        <button class="payment-button">
-                            <a href="payment.html" class="payment-link">Payment</a>
-                        </button>
+
+                        <a href="payment.html" class="button">
+                            Payment
+                        </a>
                     </h3>
 
-                    <p class="course-description">
+                    <p>
                         Learn about risk and position sizing when
                         trading.
                     </p>
 
-                    <p class="course-meta">7 Lessons - 5 Hours</p>
+                    <p>7 Lessons - 5 Hours</p>
+
                 </li>
 
-                <li class="course-item">
-                    <h3 class="course-heading">
-                        <a href="course-detail.html" class="course-link">
+                <li class="course">
+
+                    <img class="course-image" src="img/opsions.webp" alt="Options and derivatives course">
+
+                    <h3>
+                        <a href="course-detail.html" class="link">
                             Options &amp; Derivatives
                         </a>
-                        <button class="payment-button">
-                            <a href="payment.html" class="payment-link">Payment</a>
-                        </button>
 
+                        <a href="payment.html" class="button">
+                            Payment
+                        </a>
                     </h3>
 
-
-
-                    <p class="course-description">
+                    <p>
                         Learn about calls, puts, spreads, and
                         derivatives.
                     </p>
 
-                    <p class="course-meta">8 Lessons - 6 Hours</p>
+                    <p>8 Lessons - 6 Hours</p>
+
                 </li>
 
             </ol>
-        </section>
+
+        </div>
 
     </main>
 
-    <hr class="section-divider">
+    <hr>
 
-    <footer class="site-footer">
-        <p class="footer-text copyright-text">
+    <footer class="footer">
+
+        <p>
             &copy; 2026 The Trading Pro.
         </p>
 
-        <p class="footer-text disclaimer-text">
+        <p>
             For education only - not investment advice.
         </p>
 
-        <p class="footer-text footer-nav-p">
-            <a href="courses.html" class="footer-link">Courses</a> |
-            <a href="about.html" class="footer-link">About</a> |
-            <a href="contact.html" class="footer-link">Contact</a> |
-            <a href="login.html" class="footer-link">Log in</a> |
-        
-        </p>
     </footer>
 
-    <script src="script.js" class="script-section"></script>
     <script src="jquery-4.0.0.min.js"></script>
-
+    <script src="js/jquery-script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

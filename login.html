@@ -1,105 +1,91 @@
 <!DOCTYPE html>
-<html lang="en" class="html-root">
-
-<head class="head-section">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="page-title">Log in - The Trading Pro</title>
+    <title>Log in - The Trading Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
+<body>
 
-<body class="page-body">
+    <header class="header">
 
-    <header class="site-header">
-        <h1 class="site-title">The Trading Pro</h1>
+        <h1 class="title">The Trading Pro</h1>
 
-        <nav class="site-nav">
-            <a href="index.html" class="nav-link">Home</a> |
-            <a href="courses.html" class="nav-link">Courses</a> |
-            <a href="about.html" class="nav-link">About</a> |
-            <a href="contact.html" class="nav-link">Contact</a> |
+        <nav class="nav">
+            <a href="index.html" class="link">Home</a> |
+            <a href="courses.html" class="link">Courses</a> |
+            <a href="about.html" class="link">About</a> |
+            <a href="contact.html" class="link">Contact</a> |
+            <a href="login.html" class="link">Log in</a>
         </nav>
+
     </header>
 
+    <hr>
 
-    <hr class="section-divider">
+    <main class="main">
 
-    <main class="site-main">
+        <div class="box">
 
-        <section class="login-section">
-            <h2 class="section-title">Log in</h2>
+            <h2>Log in</h2>
 
-            <form action="#" method="post" class="login-form">
+            <form action="#" method="post" class="form">
 
-                <p class="form-group">
-                    <label for="email" class="form-label">Email:</label><br class="form-break">
-                    <input type="email" id="email" name="email" required class="form-input">
-                </p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-                <p class="form-group">
-                    <label for="password" class="form-label">Password:</label><br class="form-break">
-                    <input type="password" id="password" name="password" required class="form-input">
-                </p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
 
-                <p class="form-group form-submit-group">
-                    <input type="submit" value="Log in" class="form-submit">
-                </p>
+                <input type="submit" value="Log in" class="button">
 
             </form>
-        </section>
 
-        <hr class="section-divider">
+        </div>
 
-        <section class="register-section">
-            <h2 class="section-title">Create Account</h2>
+        <hr>
 
-            <form action="#" method="post" class="register-form">
+        <div class="box">
 
-                <p class="form-group">
-                    <label for="name" class="form-label">Full Name:</label><br class="form-break">
-                    <input type="text" id="name" name="name" required class="form-input">
-                </p>
+            <h2>Create Account</h2>
 
-                <p class="form-group">
-                    <label for="newemail" class="form-label">Email:</label><br class="form-break">
-                    <input type="email" id="newemail" name="email" required class="form-input">
-                </p>
+            <form action="#" method="post" class="form">
 
-                <p class="form-group">
-                    <label for="newpassword" class="form-label">Password:</label><br class="form-break">
-                    <input type="password" id="newpassword" name="password" required class="form-input">
-                </p>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
 
-                <p class="form-group form-submit-group">
-                    <input type="submit" value="Create Account" class="form-submit">
-                </p>
+                <label for="newemail">Email:</label>
+                <input type="email" id="newemail" name="email" required>
+
+                <label for="newpassword">Password:</label>
+                <input type="password" id="newpassword" name="password" required>
+
+                <input type="submit" value="Create Account" class="button">
 
             </form>
-        </section>
+
+        </div>
 
     </main>
 
-    <hr class="section-divider">
+    <hr>
 
-    <footer class="site-footer">
+    <footer class="footer">
 
-        <p class="footer-text copyright-text">
+        <p>
             &copy; 2026 The Trading Pro.
         </p>
 
-        <p class="footer-text disclaimer-text">
+        <p>
             For education only - not investment advice.
-        </p>
-
-        <p class="footer-text footer-nav-p">
-            <a href="courses.html" class="footer-link">Courses</a> |
-            <a href="about.html" class="footer-link">About</a> |
-            <a href="contact.html" class="footer-link">Contact</a>
         </p>
 
     </footer>
 
-    <script src="script.js" class="script-section"></script>
     <script src="jquery-4.0.0.min.js"></script>
-
+    <script src="js/jquery-script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
