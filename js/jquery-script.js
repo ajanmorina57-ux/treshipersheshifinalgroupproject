@@ -20,12 +20,7 @@ $(document).ready(function(){
     $('.courses .course ul').hide();
     $('.courses .course').css('cursor', 'pointer');
 
-    $('.courses .course').on('click', function(event) {
-        // Ignore clicks directly on links or payment buttons
-        if (!$(event.target).is('a, button')) {
-            $(this).find('ul').slideToggle(250);
-        }
-    });
+ 
 
     $('.market-snapshot li, .box .list li').hover(
         function() {
