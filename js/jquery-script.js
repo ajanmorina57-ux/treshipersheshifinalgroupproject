@@ -17,8 +17,7 @@ $(document).ready(function(){
 
     $('.box').hide().fadeIn(500);
 
-    $('.courses .course ul').hide();
-    $('.courses .course').css('cursor', 'pointer');
+  
 
  
 
