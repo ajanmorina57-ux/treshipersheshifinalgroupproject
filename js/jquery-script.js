@@ -1,8 +1,5 @@
 $(document).ready(function(){
-    var currentPage = window.location.pathname.split('/').pop();
-    if(currentPage === ''){
-        currentPage = 'index.html';
-    }
+    
 
     $('.nav .link').each(function(){
         var linkHref = $(this).attr('href');
